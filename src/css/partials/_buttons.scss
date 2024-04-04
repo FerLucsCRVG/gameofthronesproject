@@ -1,0 +1,62 @@
+a{
+    color:$white;
+    @include typeface(h3,desktop);
+    display:inline-block;
+    padding:8px;
+    cursor: pointer;
+    transition:.3s;
+    text-decoration:none;
+    accent-color:red;
+    @include responsive(s){
+        @include typeface(h3,mobile);
+    }
+
+    &:hover{
+        color:$destaque;
+    }
+}
+button{
+    @include typeface(h2,desktop);
+    color:$primary-color;
+    //
+    background-color:rgba(249, 150, 0, 1);
+    //
+    border-radius: 25px;
+    padding:8px 48px;
+    transition:.3s;
+    cursor:pointer;
+
+    &:hover{
+        background-color: rgba(239, 78, 54, 1);
+    }
+}
+
+input{
+    @include typeface(h4,desktop);
+    @include typeface(h4,mobile);
+    padding:24px;
+    height:40px;
+    background-color:$primary-light;
+    border-radius:25px;
+    border:0;
+
+    &:focus{
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
+}
+
+.btn-search{
+    @include typeface(h4,desktop);
+    padding:24px;
+    height:40px;
+    background-color:$primary-light;
+    transform: translateX(-40px);
+    border:0;
+    border-radius:0,0,0,25px;
+
+    &:hover{
+        background-color:$primary-light;
+    }
+}

@@ -1,0 +1,273 @@
+@import 'partials/colors';
+@import 'partials/layout';
+@import 'partials/typography';
+@import 'partials/buttons';
+@import 'partials/spacing';
+@import 'partials/menu';
+@import 'partials/footer';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: hidden;
+}
+body{
+    width:100%;
+    background-color:$primary-color;
+}
+svg,img{
+    width:100%;
+}
+
+//HERO
+
+.hero{
+    width:100%;
+    height:787px;
+    background-image:url(../img/img-hero.jpg);
+    background-position:center;
+    background-size:cover;
+    box-shadow: inset 0,-39px,50,50,$primary-color;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-end;
+
+    @include responsive(s){
+        background-size:contain;
+        background-repeat:no-repeat;
+    }
+}
+
+//PERSONAGENS MAIS FAMOSOS
+
+.card{
+    background-color:$primary-light;
+    border-radius:25px;
+    transition:.3s;
+    overflow:hidden;
+
+    img{
+        border-radius:25px;
+    }
+
+    .topimgpers{
+        width:430px;
+        height:200px;
+    }
+
+    a{
+        padding:0;
+    }
+
+    .family-name{
+
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+
+        img{
+            width:60px;
+            height:60px;
+            
+            z-index:0;
+        }
+    }
+
+    @include responsive(m){
+        width:calc(100% - $gutter);
+        margin:calc($gutter / 2);
+        float:none;
+    }
+
+    &:hover{
+        opacity:.5;
+    }
+}
+
+// CASAS MAIS FAMOSAS
+
+.casas{
+    @include responsive(m){
+        width:80%;
+    }
+
+    @include responsive(m){
+        width:80%;
+    }
+}
+
+.casasfamosasimg{
+
+    img{
+        width:100%;
+        height:400px;
+    }
+
+    &:hover{
+        opacity:.5;
+    }
+}
+
+// FOTOS
+
+.fotos{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+    width:100%;
+
+    a{
+        padding:0px;
+        display:block;
+    }
+
+    img{
+        width:216px;
+        height:100px;
+        margin:4px;
+        cursor:pointer;
+        transition:.3s;
+
+        &:hover{
+            opacity: .5;
+        }
+    }
+
+    .img{
+        width:216px;
+        height:100px;
+        margin:4px;
+        background-color:red;
+    }
+}
+
+.numero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    .numeros{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:80px;
+        width:80px;
+        padding:30px;
+        background-color:$secundary-color;
+        color:$white;
+        cursor: pointer;
+        transition:.3s;
+
+        &:hover{
+            opacity:.6;
+        }
+    }
+}
+
+.showfotos{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top:63px;
+    left:-1350px;
+    background-color:$primary-color;
+    transition:.4s;
+    z-index:900;
+
+    .fecharfoto{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+        h1{
+            cursor:pointer;
+            transition: .3s ease;
+
+            &:hover{
+                opacity:.5;
+            }
+        }
+    }
+}
+
+.activefoto{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top:63px;
+    left:0;
+    background-color:$primary-color;
+}
+
+// PROCURAR PERSONAGENS
+
+.personagens{
+    margin:0;
+}
+
+// PERSONAGEM
+
+.family-person, .name-person{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.img-family{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    cursor: pointer;
+    transition:.3s;
+
+    &:hover{
+        opacity:.5;
+    }
+}
+
+.description-1{
+    background-color:$primary-light;
+
+    img{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+    }
+    
+    @include responsive(m){
+        width:calc(100% - $gutter);
+        margin:calc($gutter / 2);
+        float:none;
+    }
+}
+
+.parents-person-2{
+
+    h3{
+        transition:.3s;
+        cursor: pointer;
+
+        &:hover{
+            opacity:.5;
+        }
+    }
+}
+
+.description-2{
+    background-color:$primary-light;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+    @include responsive(m){
+        width:calc(100% - $gutter);
+        margin:calc($gutter / 2);
+        float:none;
+    }
+}

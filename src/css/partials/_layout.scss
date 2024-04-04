@@ -1,0 +1,61 @@
+$container-xl:1440px;
+$container-l:1416px;
+$container-m:960px;
+$container-s:540px;
+$gutter:24px;
+
+.container{
+    max-width:$container-l;
+    margin:8px auto;
+
+    &::after{
+        content:'';
+        display:table;
+        clear:both;
+    }
+}
+
+//RESPONSIVE
+
+@mixin responsive($device){
+
+    @if $device == xl{
+        @media screen and (min-width:$container-l){
+            @content;
+        }
+    }@else if $device == l{
+        @media screen and (min-width:$container-m) and (max-width:$container-l){
+            @content;
+        }
+    }@else if $device == m{
+        @media screen and (min-width:$container-s) and (max-width:$container-m){
+            @content;
+        }
+    }@else if $device == s{
+        @media screen and (max-width:$container-s){
+            @content;
+        }
+    }
+}
+
+// SYSTEM GRID
+
+@function grid($col,$total:12){
+    @return calc($col / $total) * 100%;
+}
+
+@for $i from 1 through 12{
+    .grid-#{$i}{
+        width:calc(grid($i) - $gutter);
+        margin:calc($gutter / 2);
+        float:left;
+
+        @include responsive(s){
+            width:calc(100% - $gutter);
+            margin:calc($gutter / 2);
+            float:none;
+        }
+
+        
+    }
+}

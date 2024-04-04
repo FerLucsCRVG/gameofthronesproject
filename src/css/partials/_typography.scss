@@ -1,0 +1,99 @@
+// TIPOGRAFIAS
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+//TYPEFACE
+
+@mixin typeface($size,$device){
+
+    font-family: "El Messiri", sans-serif;
+
+    @if $size == h1 and $device == desktop{
+        font-size:68px;
+        line-height:71px;
+        color:$white;
+    }@else if $size == h1 and $device == mobile{
+        font-size:62px;
+        line-height:71px;
+        color:$white;
+    }
+
+    @else if $size == h2 and $device == desktop{
+        font-size:42px;
+        line-height:47px;
+        color:$white;
+    }@else if $size == h2 and $device == mobile{
+        font-size:40px;
+        line-height:47px;
+        color:$white;
+    }
+
+    @else if $size == h3 and $device == desktop{
+        font-size:32px;
+        line-height:47px;
+        color:$white;
+    }@else if $size == h3 and $device == mobile{
+        font-size:28px;
+        line-height:47px;
+        color:$white;
+    }
+
+    @else if $size == h4 and $device == desktop{
+        font-size:18px;
+        line-height:24px;
+        color:$white;
+    }@else if $size == h4 and $device == mobile{
+        font-size:16px;
+        line-height:24px;
+        color:$white;
+    }
+
+    @else if $size == h0 and $device == desktop{
+        font-size:280px;
+        line-height:71px;
+        color:$destaque;
+    }@else if $size == h0 and $device == mobile{
+        font-size:248px;
+        line-height:71px;
+        color:$destaque;
+    }
+}
+
+.h0{
+    @include typeface(h0,desktop);
+
+    @include responsive(s){
+        @include typeface(h0,mobile);
+    }
+}
+
+h1{
+    @include typeface(h1,desktop);
+
+    @include responsive(s){
+        @include typeface(h1,mobile);
+    }
+}
+
+h2{
+    @include typeface(h2,desktop);
+
+    @include responsive(s){
+        @include typeface(h2,mobile);
+    }
+}
+
+h3{
+    @include typeface(h3,desktop);
+
+    @include responsive(s){
+        @include typeface(h3,mobile);
+    }
+}
+
+h4{
+    @include typeface(h4,desktop);
+
+    @include responsive(s){
+        @include typeface(h4,mobile);
+    }
+}

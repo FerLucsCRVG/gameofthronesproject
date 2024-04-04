@@ -1,0 +1,105 @@
+// GAPS
+$gap-1:8px;
+$gap-2:16px;
+$gap-3:24px;
+$gap-4:32px;
+$gap-5:40px;
+$gap-6:48px;
+$gap-7:56px;
+$gap-8:72px;
+$gap-9:96px;
+$gap-10:128px;
+
+
+@for $i from 1 through 10{
+    $gap:0px;
+
+    @if $i == 1{
+        $gap:$gap-1;
+    }@else if $i == 2{
+        $gap:$gap-2;
+    }@else if $i == 3{
+        $gap:$gap-3;
+    }@else if $i == 4{
+        $gap:$gap-4;
+    }@else if $i == 5{
+        $gap:$gap-5;
+    }@else if $i == 6{
+        $gap:$gap-6;
+    }@else if $i == 7{
+        $gap:$gap-7;
+    }@else if $i == 8{
+        $gap:$gap-8;
+    }@else if $i == 9{
+        $gap:$gap-9;
+    }@else if $i == 10{
+        $gap:$gap-10;
+    }
+
+    // MARGIN
+    .m-#{$i}{
+        margin:$gap;
+    }
+    .ml-#{$i}{
+        margin-left:$gap;
+    }
+    .mt-#{$i}{
+        margin-top:$gap;
+    }
+    .mr-#{$i}{
+        margin-right:$gap;
+    }
+    .mb-#{$i}{
+        margin-bottom:$gap;
+    }
+    .mx-#{$i}{
+        margin-left:$gap;
+        margin-right:$gap;
+    }
+    .my-#{$i}{
+        margin-top:$gap;
+        margin-bottom:$gap;
+    }
+
+    // PADDING
+    .p-#{$i}{
+        padding:$gap;
+    }
+    .pl-#{$i}{
+        padding-left:$gap;
+    }
+    .pt-#{$i}{
+        padding-top:$gap;
+    }
+    .pr-#{$i}{
+        padding-right:$gap;
+    }
+    .pb-#{$i}{
+        padding-bottom:$gap;
+    }
+    .px-#{$i}{
+        padding-left:$gap;
+        padding-right:$gap;
+    }
+    .py-#{$i}{
+        padding-top:$gap;
+        padding-bottom:$gap;
+    }
+}
+
+.flex{
+    display:flex;
+}
+
+.flex-center{
+    display:flex;
+    align-items:center;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.border-radius{
+    border-radius:25px;
+}
