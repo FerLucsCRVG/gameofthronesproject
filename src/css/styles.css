@@ -229,6 +229,21 @@ h3 {
   }
 }
 
+span {
+  font-family: "El Messiri", sans-serif;
+  font-size: 32px;
+  line-height: 47px;
+  color: #F6F6F6;
+}
+@media screen and (max-width: 540px) {
+  span {
+    font-family: "El Messiri", sans-serif;
+    font-size: 28px;
+    line-height: 47px;
+    color: #F6F6F6;
+  }
+}
+
 h4 {
   font-family: "El Messiri", sans-serif;
   font-size: 18px;
@@ -1161,6 +1176,16 @@ svg, img {
 }
 .casasfamosasimg:hover {
   opacity: 0.5;
+}
+
+.casasfamosasimg2 {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (min-width: 540px) and (max-width: 960px) {
+  .casasfamosasimg2 {
+    width: 100%;
+  }
 }
 
 .fotos {

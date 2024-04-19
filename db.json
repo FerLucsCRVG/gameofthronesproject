@@ -23,7 +23,7 @@
             "surname": "Duende",
             "id_family":1,
             "image": "https://epipoca.com.br/wp-content/uploads/2021/12/Tyrion-Lannister-em-Game-of-Thrones-Reproducao.jpg",
-            "description": "O ano Lannister",
+            "description": "O anão Lannister",
             "stars": 5
         },
         {
@@ -96,64 +96,210 @@
             "name":"Lannister",
             "flag":"https://pbs.twimg.com/media/DbizQNdW0AA839b.jpg",
             "staff":"Um Lannister sempre paga suas dívidas",
+            "core":"Rochedo Casterly",
+            "region":"Norte",
             "description":"A Casa Lannister de Rochedo Casterly é uma das grandes casas de Westeros, bem como uma das famílias mais ricas, poderosas e antigas do continente. Além disso, é a atual família real dos Sete Reinos, após a extinção da Casa Baratheon de Porto Real, a qual, de qualquer forma, já era usada como sua marionete.",
-            "stars": 5
+            "stars": 5,
+            "mainCharacters":[
+                {
+                    "id":1
+                },
+                {
+                    "id":2
+                },
+                {
+                    "id":3
+                }
+            ]
         },
         {
             "id":2,
             "name":"Stark",
             "flag":"https://s.aficionados.com.br/imagens/stark.jpg",
             "staff":"Inverno Está Chegando",
+            "core":"Winterfell",
+            "region":"Norte",
             "description":"A Casa Stark de Winterfell é uma Grande Casa de Westeros, responsável pelo governo do Reino do Norte. Por anos os Reis do Inverno governaram o vasto deserto gelado do Norte com soberania absoluta, mas durante a Guerra da Conquista, a Casa Stark se tornou submissa ao Trono de Ferro. Depois de mais de trezentos anos, após o fim da Guerra dos Cinco Reis e da Invasão de Westeros por Daenerys Targaryen, a Rainha Sansa Stark convenceu seu irmão e recém-eleito Rei dos Ândalos e dos Primeiros Homens, Bran I, o Quebrado, a permitir que o Norte voltasse a ser um reino separado como era antes da conquista de Aegon I Targaryen.",
-            "stars": 5
+            "stars": 5,
+            "mainCharacters":[
+                {
+                    "id":1
+                },
+                {
+                    "id":2
+                },
+                {
+                    "id":3
+                }
+            ]
         },
         {
             "id":3,
             "name":"Targeryan",
             "flag":"https://i.pinimg.com/originals/21/78/ea/2178ea523b6dcffd142bd3646ec7d4a4.jpg",
             "staff":"Fogo e Sangue",
+            "core":"Pedra dos Targeryan",
+            "region":"Norte",
             "description":"A Casa Targaryen era uma antiga e exilada Grande Casa de Westeros e antiga regente dos Sete Reinos. Criada em Valíria, foi a única a escapar da Destruição. A Casa Targaryen foi responsável pela conquista e unificação dos Sete Reinos de Westeros, usando principalmente de dragões como força principal para manter o reinado. Após a guerra civil da conhecida como Dança dos Dragões, a Casa Targaryen enfraqueceu em números e foi aos poucos perdendo seus dragões, e por consequência seu poder. Durante o reinado do Rei Aerys II, o Louco, a monarquia Targaryen foi deposta pela Casa Baratheon e seus herdeiros foram exilados além do Mar Estreito.",
-            "stars": 4
+            "stars": 4,
+            "mainCharacters":[
+                {
+                    "id":1
+                },
+                {
+                    "id":2
+                },
+                {
+                    "id":3
+                }
+            ]
         },
         {
             "id":4,
             "name":"Greyjoy",
             "flag":"https://pm1.aminoapps.com/7004/da36d251e26f482ffded6cb189ec9ca79f57aefdr1-640-480v2_00.jpg",
             "staff":"Nós são semeamos",
+            "core":"Pyke",
+            "region":"Norte",
             "description":"A Casa Greyjoy de Pyke é uma das grandes casas de Westeros. Governa as Ilhas de Ferro, um conjunto áspero e desolado de ilhas ao largo da costa oeste de Westeros, a partir do castelo de Pyke. O chefe da casa é o Senhor Ceifeiro de Pyke.",
-            "stars": 5
+            "stars": 5,
+            "mainCharacters":[
+                {
+                    "id":1
+                },
+                {
+                    "id":2
+                },
+                {
+                    "id":5
+                }
+            ]
         },
         {
             "id":5,
             "name":"Arryn",
             "flag":"https://i.pinimg.com/originals/fc/e4/d2/fce4d27e3c135f02e6c0183aa10c03f2.jpg",
             "staff":"Tão Alto Como a Honra",
+            "core":"Ninho da Águia",
+            "region":"Norte",
             "description":"A Casa Arryn do Ninho da Águia é uma das grandes casas dos Sete Reinos de Westeros. Ela governou sobre o Vale por milênios, originalmente como os Reis da Montanha e do Vale e, mais recentemente, como Senhores Supremos do Vale e Protetores do Leste sob os reis da Casa Targaryen e os reis da Casa Baratheon. O chefe nominal dessa casa é Robin Arryn.",
-            "stars": 1
+            "stars": 1,
+            "mainCharacters":[
+                {
+                    "id":1
+                },
+                {
+                    "id":2
+                },
+                {
+                    "id":3
+                }
+            ]
         },
         {
             "id":6,
             "name":"Martell",
             "flag":"https://pm1.aminoapps.com/6981/6af2250dd8a6b9d4c0008e6a5b5c050ec5d2d54dr1-752-1063v2_hq.jpg",
             "staff":"Insubmissos, Imbatíveis, Inquebráveis",
+            "core":"Casa Martell",
+            "region":"Norte",
             "description":"A Casa Martell de Lançassolar é uma Grande Casa de Westeros que governa a península de Dorne, no extremo sul do continente, a partir de seu castelo Lançassolar. Os membros do ramo principal da família recebem o título de Príncipe ou Princesa de Dorne, apesar de que apenas o governante e cabeça da família recebe o título de Senhor ou Senhora de Lançassolar.",
-            "stars": 2
+            "stars": 2,
+            "mainCharacters":[
+                {
+                    "id":1
+                },
+                {
+                    "id":2
+                },
+                {
+                    "id":3
+                }
+            ]
         },
         {
             "id":7,
             "name":"Tyrell",
             "flag":"https://e1.pxfuel.com/desktop-wallpaper/943/52/desktop-wallpaper-the-flag-of-house-tyrell-by-achaley-house-tyrell.jpg",
             "staff":"Crescendo Fortes",
+            "core":"Jardim de Cima",
+            "region":"Norte",
             "description":"A Casa Tyrell de Jardim de Cima é uma grande casa legalmente extinta de Westeros. Ela governava a Campina, uma vasta, fértil e populosa região do sudoeste de Westeros, a partir de sua sede, o castelo de Jardim de Cima. A casa era liderada anteriormente por Lorde Mace Tyrell. O filho de Mace, Loras Tyrell, é um cavaleiro notável (e secretamente o amante de Renly Baratheon). A filha de Mace, Margaery Tyrell, foi casada com Renly quando ele se coroou rei, para acimentar a aliança entre Renly e os Tyrell. Após a morte de Renly, Margaery foi então casada com o Rei Joffrey Baratheon antes de seu assassinato em sua festa de casamento. Ela até pouco tempo estava casada com o rei Tommen Baratheon, se tornando a rainha.",
-            "stars": 2
+            "stars": 2,
+            "mainCharacters":[
+                {
+                    "id":1
+                },
+                {
+                    "id":2
+                },
+                {
+                    "id":3
+                }
+            ]
         },
         {
             "id":8,
             "name":"Baratheon",
             "flag":"https://pm1.aminoapps.com/6283/2158d070177d998797c74f0bc2c1c668fe24cdae_00.jpg",
             "staff":"Nossa é a Fúria",
+            "core":"Ponta da Tempestade",
+            "region":"Norte",
             "description":"A Casa Baratheon de Ponta da Tempestade é uma grande casa de Westeros legalmente extinta. Sua ramificação principal era a casa real, mas a Casa Lannister atualmente controla o trono. O símbolo da Casa Baratheon é um veado preto sobre um fundo dourado e seu lema deles é Nossa é a Fúria . Quando Robert Baratheon subiu ao Trono de Ferro e retirando a Casa Targaryen dele, uma coroa de ouro foi adicionado ao veado, denotando seu status como a casa real.",
-            "stars": 3
+            "stars": 3,
+            "mainCharacters":[
+                {
+                    "id":1
+                },
+                {
+                    "id":2
+                },
+                {
+                    "id":5
+                }
+            ]
+        }
+    ],
+    "foto":[
+        {
+            "id":1,
+            "photo":"https://static.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/5/49/ep49-ss05-1920.jpg?w=1200"
+        },
+        {
+            "id":2,
+            "photo":"https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/01/game-of-thrones.webp?w=1200&h=674&crop=1"
+        },
+        {
+            "id":3,
+            "photo":"https://cdn.britannica.com/88/193888-050-B7A1EC6B/cast-Game-of-Thrones-Emilia-Clarke-Nikolaj.jpg"
+        },
+        {
+            "id":4,
+            "photo":"https://static.hbo.com/content/dam/hbodata/series/game-of-thrones/video-stills/season-01/game-of-thrones-season-1-episode-1-full-stitched-607175_PRO35_10-1920.jpg"
+        },
+        {
+            "id":5,
+            "photo":"https://www.hollywoodreporter.com/wp-content/uploads/2023/08/230822_GOTRPG_GTM_WebsiteKeyArt_NoLogo_1080x1080-copy.jpg?w=1024"
+        },
+        {
+            "id":6,
+            "photo":"https://s2.glbimg.com/f1MOIsqrnuaa3obphqm8fIRqm5c=/s.glbimg.com/jo/g1/f/original/2014/05/21/game-of-thrones.jpg"
+        },
+        {
+            "id":7,
+            "photo":"https://classic.exame.com/wp-content/uploads/2019/04/series-game-of-thrones.jpg?quality=70&strip=info&w=1024"
+        },
+        {
+            "id":8,
+            "photo":"https://static1.srcdn.com/wordpress/wp-content/uploads/2023/09/game-of-thrones-cast.jpg"
+        },
+        {
+            "id":9,
+            "photo":"https://www.hollywoodreporter.com/wp-content/uploads/2015/12/got-iconic-images-18_2.jpg?w=3000"
+        },
+        {
+            "id":10,
+            "photo":"https://m.media-amazon.com/images/M/MV5BZjkwZjkzYjYtNjdhYS00ZDZjLThhMmQtZGEwOTg3ODMwMTQ1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
         }
     ]
 }

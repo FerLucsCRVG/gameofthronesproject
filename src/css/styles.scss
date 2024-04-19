@@ -112,6 +112,15 @@ svg,img{
     }
 }
 
+.casasfamosasimg2{
+    width:300px;
+    height:300px;
+
+    @include responsive(m){
+        width:100%;
+    }
+}
+
 // FOTOS
 
 .fotos{

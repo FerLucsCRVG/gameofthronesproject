@@ -1,6 +1,10 @@
 import React from 'react';
+import Header from '../Header';
+import Footer from '../Footer';
 import CardPersonagem from './CardPersonagem';
 import CardCasa from './CardCasa';
+
+import { Link } from 'react-router-dom';
 
 const Hero = () =>{
 
@@ -21,8 +25,9 @@ const Hero = () =>{
 
     return (
         <>
+            <Header/>
             <section className="hero mt-7 p-6 mb-7">
-                <button>Onde Assistir</button>
+                <button><Link to="https://www.hbo.com/game-of-thrones">Onde Assistir</Link></button>
             </section>
 
             <section className="container mb-9">
@@ -42,6 +47,7 @@ const Hero = () =>{
                     })
                 }
             </section>
+            <Footer/>
         </>
     )
 }

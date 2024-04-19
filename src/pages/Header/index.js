@@ -1,13 +1,15 @@
 import imgBtnSearch from '../../svg/btn-search.svg';
+import { Link } from 'react-router-dom';
 
 const Header = () =>{
     return (
         <header>
         <section className="menudesktop">
             <nav>
-                <a href="#">Fotos</a>
-                <a href="#">Personagens</a>
-                <a href="#">Casas</a>
+                <Link to="/">Início</Link>
+                <Link to="/fotos">Fotos</Link>
+                <Link to="/personagens">Personagens</Link>
+                <Link to="/casas">Casas</Link>
             </nav>
             <div className="search">
                 <input type="text" placeholder="Pesquisar..."/>

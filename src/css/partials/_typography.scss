@@ -90,6 +90,14 @@ h3{
     }
 }
 
+span{
+    @include typeface(h3,desktop);
+
+    @include responsive(s){
+        @include typeface(h3,mobile);
+    }
+}
+
 h4{
     @include typeface(h4,desktop);
 
