@@ -25,7 +25,7 @@ const SessionCharacters = () =>{
                     {
                         personagens.map((x)=>{
                             return (
-                                <div className="grid-3 card">
+                                <div className="grid-3 card" key={x.id}>
                                     <Link to={"/personagem/" + x.id}>
                                         <img src={x.image} alt=""/>
                                         <div className="family-name">

@@ -30,7 +30,7 @@ const Character = () =>{
             <section className="container mt-10">
                 <h1 className="text-center">{personagem.name}</h1>
 
-                <div className="grid-12 imgpersonagem">
+                <div className="grid-12 imgpersonagem1">
                     <img className="border-radius" src={personagem.image} alt=""/>
                 </div>
 

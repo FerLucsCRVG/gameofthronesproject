@@ -6,7 +6,7 @@
             "surname": "Ned",
             "id_family":2,
             "image": "https://uploads.jovemnerd.com.br/wp-content/uploads/ned-distance-looking-game-of-thrones-sean-bean-confirms-that-fan-theory-about-jon-snow-s-mother.jpeg",
-            "description": "O mais brabo da família Stark",
+            "description": "É o segundo filho de Lorde Rickard Stark. Eddard não era esperado para herdar o norte e foi enviado para ser promovido no Ninho de Águia no Vale. Suscitada pelo Senhor Jon Arryn, Eddard e ele se tornaram amigos íntimos junto com Robert Baratheon, o Senhor de Ponta da Tempestade nas Terras da Tempestade.",
             "stars": 4
         },
         {
@@ -15,7 +15,7 @@
             "surname": "X",
             "id_family":1,
             "image": "https://static.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/tywin-lannister-1920.jpg?w=1200",
-            "description": "O mais brabo da família Lannister",
+            "description": "Inteligente, calculista, cruel e intimidante, Tywin era o homem mais rico de Westeros e eficazmente seu governante quando ele serviu como Mão do Rei para seus netos, Joffrey e Tommen. Sua força motriz era assegurar o seu legado, que era o nome Lannister, e ele faria o que ele considerava necessário para proteger a família. Tywin foi muitas vezes em desacordo com seus três filhos, a quem considerava decepções.",
             "stars": 4
         },{
             "id": 3,
@@ -23,7 +23,7 @@
             "surname": "Duende",
             "id_family":1,
             "image": "https://epipoca.com.br/wp-content/uploads/2021/12/Tyrion-Lannister-em-Game-of-Thrones-Reproducao.jpg",
-            "description": "O anão Lannister",
+            "description": "Tyrion Lannister foi o filho mais novo de Tywin e Joanna Lannister, nascido com nanismo. Devido a morte de Joanna no parto dele, Tyrion foi julgado e pressionado por sua família a vida inteira. Após ser acusado falsamente do assassinato do Rei Joffrey I Baratheon, ele matou seu próprio pai que havia dado a sentença de morte a Tyrion. Forçando um autoexílio em Essos, ele tentou forjar alianças com a Rainha Daenerys em sua restauração Targaryen.",
             "stars": 5
         },
         {
@@ -32,7 +32,7 @@
             "surname": "Bastardo do Norte",
             "id_family":2,
             "image": "https://criticalhits.com.br/wp-content/uploads/2015/06/jon-snow-01.jpg",
-            "description": "O principal da série",
+            "description": "Jon Snow, nascido Aegon Targaryen, é o filho de Rhaegar Targaryen e Lyanna Stark, o falecido Príncipe de Pedra do Dragão. Jon foi criado como o filho bastardo do tio, Eddard Stark, em Winterfell. Na infância, seus primos foram criados como meio-irmãos, e Jon nunca soube seu real parentesco quando criança. Ele desenvolveu um forte relacionamento com a sua família, principalmente com Robb e Arya Stark.",
             "stars": 3
         },
         {
@@ -41,7 +41,7 @@
             "surname": "X",
             "id_family":1,
             "image": "https://static.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/cersei-lannister-1920.jpg?w=1200",
-            "description": "A rainha mais do mal",
+            "description": "Cersei é a única filha mulher de Joanna Lannister e Lorde Tywin Lannister. Tywin é o chefe da Casa Lannister, e o homem mais rico dos Sete Reinos e Senhor Supremo das Terras Ocidentais. As Terras Ocidentais são uma das regiões que constituem os Setes Reinos e a Casa Lannister é uma das Casas Nobres do Reino. Cersei é a irmã gêmea mais velha de Jaime Lannister e irmã mais velha de Tyrion Lannister. Ela foi criada com muitos privilégios na sede da Casa Lannister, Rochedo Casterly. Ela é conhecida por ser uma das mulheres mais belas dos Setes Reinos.",
             "stars": 3
         },
         {
@@ -50,7 +50,7 @@
             "surname": "X",
             "id_family":2,
             "image": "https://rollingstone.uol.com.br/media/uploads/arya_stark_reprod_hbo.jpg",
-            "description": "A garota da espada da família Stark",
+            "description": "Princesa Arya Stark é a filha mais nova de Lorde Eddard e Lady Catelyn, irmã mais nova de Robb e Sansa, e irmã mais velha de Bran I, o Quebrado e Rickon Stark. Seu primo Jon Snow foi criado como seu meio-irmão bastardo durante toda sua vida, e cresceu muito próximo de Arya.",
             "stars": 5
         },
         {
@@ -59,25 +59,25 @@
             "surname": "Mãe dos dragões",
             "id_family":3,
             "image": "https://static.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/daenarys-1920.jpg?w=1200",
-            "description": "Braba demais",
+            "description": "Daenerys Targaryen, também conhecida como Dany e Daenerys Nascida da Tormenta, era a irmã mais nova de Rhaegar e Viserys Targaryen, tia paterna de Jon Snow, e filha mais nova do Rei Aerys II com a Rainha Rhaella Targaryen, que foram ambos destronados do Trono de Ferro durante a Rebelião de Robert.",
             "stars": 5
         },
         {
             "id": 8,
             "name": "Theon Greyjoy",
-            "surname": "O sem pau",
+            "surname": "X",
             "id_family":4,
             "image": "https://s2.glbimg.com/K__nneu7QtHRF9YLZW9fx0Yu9ss=/e.glbimg.com/og/ed/f/original/2017/08/09/theon-greyjoy-1920.jpg",
-            "description": "O sem pau dos greyjoy",
+            "description": "Após a fracassada rebelião de seu pai contra o Trono de Ferro, Theon é tomado como refém por Lorde Eddard Stark de Winterfell. Após a execução de Eddard em King's Landing, Theon promete sua lealdade ao filho mais velho de Eddard, Robb Stark, na subsequente Guerra dos Cinco Reis mas trai Robb e se junta ao seu pai na invasão do Norte, o que leva à sua captura pela Casa Bolton. Ele é torturado e forçado à servidão por Ramsay Snow, que o transforma em um animal de estimação com o nome Podre/Fedor.",
             "stars": 2
         },
         {
             "id": 9,
             "name": "Robert Baratheon",
-            "surname": "Rei cachaceiro",
+            "surname": "X",
             "id_family":8,
             "image": "https://sm.ign.com/ign_pt/screenshot/default/blob_rhzm.jpg",
-            "description": "O rei cachaça quem ganhou a guerra",
+            "description": "Robert, um grande guerreiro e homem carismático na sua juventude, tomou o trono através da conquista da guerra conhecida como Rebelião de Robert, que começou quando o Príncipe de Pedra do Dragão, Rhaegar Targaryen, supostamente sequestrou a noiva de Robert, Lyanna Stark. Matando Rhaegar na Batalha do Tridente, seu duelo transformou as marés da guerra a seu favor. Depois da guerra e depois da morte de Lyanna, Robert casou-se com Cersei Lannister para cimentar uma aliança com a Casa Lannister para manter os reinos juntos, mas o casamento não era perfeito.",
             "stars": 3
         },
         {
@@ -86,7 +86,7 @@
             "surname": "Assassino do rei",
             "id_family":1,
             "image": "https://assets-prd.ignimgs.com/2023/04/07/nikolaj-coster-waldau-jamie-lannister-game-of-thrones-1680885965676.jpg",
-            "description": "O assassino do rei louco",
+            "description": "Jaime é o filho mais velho de Tywin, irmão gêmeo mais novo de Cersei, e irmão mais velho de Tyrion Lannister. Ele também está envolvido em uma relação sexual e incestuosa com Cersei, sendo o pai biológico de seus três filhos, Joffrey, Myrcella, e Tommen.",
             "stars": 4
         }
     ],
@@ -97,20 +97,9 @@
             "flag":"https://pbs.twimg.com/media/DbizQNdW0AA839b.jpg",
             "staff":"Um Lannister sempre paga suas dívidas",
             "core":"Rochedo Casterly",
-            "region":"Norte",
+            "region":"Terras da Coroa",
             "description":"A Casa Lannister de Rochedo Casterly é uma das grandes casas de Westeros, bem como uma das famílias mais ricas, poderosas e antigas do continente. Além disso, é a atual família real dos Sete Reinos, após a extinção da Casa Baratheon de Porto Real, a qual, de qualquer forma, já era usada como sua marionete.",
-            "stars": 5,
-            "mainCharacters":[
-                {
-                    "id":1
-                },
-                {
-                    "id":2
-                },
-                {
-                    "id":3
-                }
-            ]
+            "stars": 5
         },
         {
             "id":2,
@@ -120,18 +109,7 @@
             "core":"Winterfell",
             "region":"Norte",
             "description":"A Casa Stark de Winterfell é uma Grande Casa de Westeros, responsável pelo governo do Reino do Norte. Por anos os Reis do Inverno governaram o vasto deserto gelado do Norte com soberania absoluta, mas durante a Guerra da Conquista, a Casa Stark se tornou submissa ao Trono de Ferro. Depois de mais de trezentos anos, após o fim da Guerra dos Cinco Reis e da Invasão de Westeros por Daenerys Targaryen, a Rainha Sansa Stark convenceu seu irmão e recém-eleito Rei dos Ândalos e dos Primeiros Homens, Bran I, o Quebrado, a permitir que o Norte voltasse a ser um reino separado como era antes da conquista de Aegon I Targaryen.",
-            "stars": 5,
-            "mainCharacters":[
-                {
-                    "id":1
-                },
-                {
-                    "id":2
-                },
-                {
-                    "id":3
-                }
-            ]
+            "stars": 5
         },
         {
             "id":3,
@@ -139,20 +117,9 @@
             "flag":"https://i.pinimg.com/originals/21/78/ea/2178ea523b6dcffd142bd3646ec7d4a4.jpg",
             "staff":"Fogo e Sangue",
             "core":"Pedra dos Targeryan",
-            "region":"Norte",
+            "region":"Baía dos dragões",
             "description":"A Casa Targaryen era uma antiga e exilada Grande Casa de Westeros e antiga regente dos Sete Reinos. Criada em Valíria, foi a única a escapar da Destruição. A Casa Targaryen foi responsável pela conquista e unificação dos Sete Reinos de Westeros, usando principalmente de dragões como força principal para manter o reinado. Após a guerra civil da conhecida como Dança dos Dragões, a Casa Targaryen enfraqueceu em números e foi aos poucos perdendo seus dragões, e por consequência seu poder. Durante o reinado do Rei Aerys II, o Louco, a monarquia Targaryen foi deposta pela Casa Baratheon e seus herdeiros foram exilados além do Mar Estreito.",
-            "stars": 4,
-            "mainCharacters":[
-                {
-                    "id":1
-                },
-                {
-                    "id":2
-                },
-                {
-                    "id":3
-                }
-            ]
+            "stars": 4
         },
         {
             "id":4,
@@ -160,20 +127,9 @@
             "flag":"https://pm1.aminoapps.com/7004/da36d251e26f482ffded6cb189ec9ca79f57aefdr1-640-480v2_00.jpg",
             "staff":"Nós são semeamos",
             "core":"Pyke",
-            "region":"Norte",
+            "region":"Ilhas de Ferro",
             "description":"A Casa Greyjoy de Pyke é uma das grandes casas de Westeros. Governa as Ilhas de Ferro, um conjunto áspero e desolado de ilhas ao largo da costa oeste de Westeros, a partir do castelo de Pyke. O chefe da casa é o Senhor Ceifeiro de Pyke.",
-            "stars": 5,
-            "mainCharacters":[
-                {
-                    "id":1
-                },
-                {
-                    "id":2
-                },
-                {
-                    "id":5
-                }
-            ]
+            "stars": 5
         },
         {
             "id":5,
@@ -181,41 +137,19 @@
             "flag":"https://i.pinimg.com/originals/fc/e4/d2/fce4d27e3c135f02e6c0183aa10c03f2.jpg",
             "staff":"Tão Alto Como a Honra",
             "core":"Ninho da Águia",
-            "region":"Norte",
+            "region":"Vale de Arryn",
             "description":"A Casa Arryn do Ninho da Águia é uma das grandes casas dos Sete Reinos de Westeros. Ela governou sobre o Vale por milênios, originalmente como os Reis da Montanha e do Vale e, mais recentemente, como Senhores Supremos do Vale e Protetores do Leste sob os reis da Casa Targaryen e os reis da Casa Baratheon. O chefe nominal dessa casa é Robin Arryn.",
-            "stars": 1,
-            "mainCharacters":[
-                {
-                    "id":1
-                },
-                {
-                    "id":2
-                },
-                {
-                    "id":3
-                }
-            ]
+            "stars": 1
         },
         {
             "id":6,
             "name":"Martell",
             "flag":"https://pm1.aminoapps.com/6981/6af2250dd8a6b9d4c0008e6a5b5c050ec5d2d54dr1-752-1063v2_hq.jpg",
             "staff":"Insubmissos, Imbatíveis, Inquebráveis",
-            "core":"Casa Martell",
-            "region":"Norte",
+            "core":"Lançassolar",
+            "region":"Dorne",
             "description":"A Casa Martell de Lançassolar é uma Grande Casa de Westeros que governa a península de Dorne, no extremo sul do continente, a partir de seu castelo Lançassolar. Os membros do ramo principal da família recebem o título de Príncipe ou Princesa de Dorne, apesar de que apenas o governante e cabeça da família recebe o título de Senhor ou Senhora de Lançassolar.",
-            "stars": 2,
-            "mainCharacters":[
-                {
-                    "id":1
-                },
-                {
-                    "id":2
-                },
-                {
-                    "id":3
-                }
-            ]
+            "stars": 2
         },
         {
             "id":7,
@@ -223,20 +157,9 @@
             "flag":"https://e1.pxfuel.com/desktop-wallpaper/943/52/desktop-wallpaper-the-flag-of-house-tyrell-by-achaley-house-tyrell.jpg",
             "staff":"Crescendo Fortes",
             "core":"Jardim de Cima",
-            "region":"Norte",
+            "region":"Campina",
             "description":"A Casa Tyrell de Jardim de Cima é uma grande casa legalmente extinta de Westeros. Ela governava a Campina, uma vasta, fértil e populosa região do sudoeste de Westeros, a partir de sua sede, o castelo de Jardim de Cima. A casa era liderada anteriormente por Lorde Mace Tyrell. O filho de Mace, Loras Tyrell, é um cavaleiro notável (e secretamente o amante de Renly Baratheon). A filha de Mace, Margaery Tyrell, foi casada com Renly quando ele se coroou rei, para acimentar a aliança entre Renly e os Tyrell. Após a morte de Renly, Margaery foi então casada com o Rei Joffrey Baratheon antes de seu assassinato em sua festa de casamento. Ela até pouco tempo estava casada com o rei Tommen Baratheon, se tornando a rainha.",
-            "stars": 2,
-            "mainCharacters":[
-                {
-                    "id":1
-                },
-                {
-                    "id":2
-                },
-                {
-                    "id":3
-                }
-            ]
+            "stars": 2
         },
         {
             "id":8,
@@ -244,20 +167,9 @@
             "flag":"https://pm1.aminoapps.com/6283/2158d070177d998797c74f0bc2c1c668fe24cdae_00.jpg",
             "staff":"Nossa é a Fúria",
             "core":"Ponta da Tempestade",
-            "region":"Norte",
+            "region":"Terras da Tempestade",
             "description":"A Casa Baratheon de Ponta da Tempestade é uma grande casa de Westeros legalmente extinta. Sua ramificação principal era a casa real, mas a Casa Lannister atualmente controla o trono. O símbolo da Casa Baratheon é um veado preto sobre um fundo dourado e seu lema deles é Nossa é a Fúria . Quando Robert Baratheon subiu ao Trono de Ferro e retirando a Casa Targaryen dele, uma coroa de ouro foi adicionado ao veado, denotando seu status como a casa real.",
-            "stars": 3,
-            "mainCharacters":[
-                {
-                    "id":1
-                },
-                {
-                    "id":2
-                },
-                {
-                    "id":5
-                }
-            ]
+            "stars": 3
         }
     ],
     "foto":[

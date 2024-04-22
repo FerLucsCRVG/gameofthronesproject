@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 
 // Pages
@@ -9,6 +9,7 @@ import SessionCharacters from "./pages/SessionCharacters";
 import Character from "./pages/Character";
 import SessionHouse from "./pages/SessionHouse";
 import House from "./pages/House";
+import Error404 from "./pages/Error404";
 
 
 
@@ -23,6 +24,7 @@ const Paths = () =>{
                     <Route path="/casas" element={<SessionHouse/>} />
                     <Route path="/personagem/:idPersonagem" element={<Character/>} />
                     <Route path="/casa/:idCasa" element={<House/>} />
+                    <Route path="*" element={<Error404/>} />
                 </Routes>
             </BrowserRouter>
         </>

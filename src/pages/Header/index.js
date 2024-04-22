@@ -1,7 +1,9 @@
+import React from 'react';
 import imgBtnSearch from '../../svg/btn-search.svg';
 import { Link } from 'react-router-dom';
 
 const Header = () =>{
+
     return (
         <header>
         <section className="menudesktop">
@@ -11,10 +13,10 @@ const Header = () =>{
                 <Link to="/personagens">Personagens</Link>
                 <Link to="/casas">Casas</Link>
             </nav>
-            <div className="search">
-                <input type="text" placeholder="Pesquisar..."/>
+            <form className="search">
+                <input type="text" name="search" placeholder="Pesquisar..."/>
                 <button className="btn-search flex-center"><img src={imgBtnSearch}/></button>
-            </div>
+            </form>
         </section>
 
         <section className="menumobile">

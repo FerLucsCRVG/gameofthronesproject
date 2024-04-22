@@ -1,5 +1,7 @@
 footer{
-    
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background: radial-gradient(circle, rgba(249,150,0,1) 80%, rgba(30,29,29,1) 100%);
 
     h1{
@@ -7,4 +9,8 @@ footer{
         color:$primary-color;
     }
     
+}
+.logo-footer{
+    width:80px;
+    height:80px;
 }
